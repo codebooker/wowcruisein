@@ -45,7 +45,7 @@
 ================================================================================ */
 @font-face {
   font-family: "futura";
-  src: url("../fonts/futura/Futura-Medium-01.ttf") format("ttf");
+  src: url("../fonts/futura/Futura-Medium-01.woff") format("woff"), url("../fonts/futura/Futura-Medium-01.ttf") format("ttf");
   font-style: normal;
   font-weight: normal;
 }
