@@ -107,6 +107,9 @@
 	      nav: false,
 			loop: true,
 	    	margin: 50,
+            autoplay:true,
+            autoplayTimeout:2500,
+            autoplayHoverPause:true,
 	    	responsiveClass:true,
 	    	responsive: {
 	         0:{
@@ -129,6 +132,35 @@
 
 	};
   	
+    /* Carousel
+	* ------------------------------------------------------ */
+	var ssOwlCarouselOriginal = function() {
+
+		$(".owl-carousel-original").owlCarousel({		
+	      nav: false,
+			loop: true,
+	    	margin: 50,
+	    	responsiveClass:true,
+	    	responsive: {
+	         0:{
+	            items:2,
+	            margin: 20
+	         },
+	         400:{
+	            items:3,
+	            margin: 30
+	         },
+	         600:{
+	            items:4,
+	            margin: 40
+	         },
+	         1000:{
+	            items:6            
+	         }
+	    	}
+		});
+
+	};
 
 
   	/* Menu on Scrolldown
