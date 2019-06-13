@@ -1509,7 +1509,7 @@ header .header-logo a {
   width: 100%;
   height: 100%;
   background-color: #151515;
-  background-image: url(../images/bigboy.jpg);
+  background-image: url(../images/WOW2018compressed.jpg);
   background-repeat: no-repeat;
   background-position: center 30%;
   -webkit-background-size: cover;
@@ -2024,6 +2024,7 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
 }
 #portfolio .portfolio-content {
   margin-top: -22.2rem;
+  padding-bottom: 12rem;
 }
 #portfolio .bricks-wrapper:before, 
 #portfolio .bricks-wrapper:after {
