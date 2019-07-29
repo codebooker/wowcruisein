@@ -1518,6 +1518,7 @@ header .header-logo a {
   background-attachment: fixed;
   min-height: 804px;
   position: relative;
+  z-index:-2;
 }
 #home .overlay {
   position: absolute;
