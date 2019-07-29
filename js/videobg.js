@@ -18,4 +18,11 @@ function onPlayerReady() {
   player.playVideo();
   // Mute Sound Function!
   player.mute();
+  setTimeout(endOfVideo,92000);
+}
+
+function endOfVideo() {
+    var myElement = document.querySelector(".videooverlay");
+    myElement.style.opacity = "1";
+    (function fade(){(myElement.style.opacity-=.1)<0?myElement.style.display="none":setTimeout(fade,40)})();
 }
