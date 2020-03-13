@@ -1615,7 +1615,7 @@ header .header-logo a {
 /* scroll down */
 .scrolldown {
   position: absolute;
-  bottom: 0;
+  bottom: 40vh;
   right: 0;
   -webkit-transform: rotate(90deg);
   -ms-transform: rotate(90deg);
