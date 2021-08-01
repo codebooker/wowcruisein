@@ -18,7 +18,7 @@ function onPlayerReady() {
   player.playVideo();
   // Mute Sound Function!
   player.mute();
-  setTimeout(endOfVideo,90000);
+  setTimeout(endOfVideo,.90000);
 }
 
 function endOfVideo() {

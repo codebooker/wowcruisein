@@ -76,7 +76,7 @@ body {
  * links - (_document-setup) 
  * ------------------------------------------------------------------- */
 a, a:visited {
-  color: #006666;
+  color: #ff8400;
   -moz-transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;
   -webkit-transition: all 0.3s ease-in-out;
@@ -471,7 +471,7 @@ td:last-child {
 }
 
 .pace .pace-progress {
-  background: #006666;
+  background: #ff8400;
   position: fixed;
   z-index: 900;
   top: 0;
@@ -510,7 +510,7 @@ td:last-child {
   margin-left: -30px;
   margin-top: -30px;
   padding: 0;
-  background-color: #006666;
+  background-color: #ff8400;
   border-radius: 100%;
   -webkit-animation: sk-scaleout 1.0s infinite ease-in-out;
   animation: sk-scaleout 1.0s infinite ease-in-out;
@@ -811,8 +811,8 @@ button.stroke.large, .button.stroke.large {
 }
 
 button.stroke:hover, .button.stroke:hover {
-  border: 3px solid #006666;
-  color: #006666;
+  border: 3px solid #ff8400;
+  color: #ff8400;
 }
 
 button::-moz-focus-inner,
@@ -1795,13 +1795,13 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   max-width: 850px;
 }
 #about span {
-  color: #006666;
+  color: #ff8400;
 }
 #about h3 {
   font-family: "montserrat-bold", sans-serif;
   font-size: 1.8rem;
   line-height: 1.667;
-  color: #006666;
+  color: #ff8400;
   text-transform: uppercase;
   letter-spacing: .3rem;
   position: relative;
@@ -1956,7 +1956,7 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
 }
 #services .services-list .icon i {
   font-size: 5.4rem;
-  color: #006666;
+  color: #ff8400;
 }
 #services .services-list .h05 {
   font-size: 1.7rem;
@@ -2204,7 +2204,7 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   padding: 12px 20% 15px;
 }
 .lg-sub-html a, .lg-sub-html a:visited {
-  color: #006666;
+  color: #ff8400;
 }
 .lg-sub-html a:hover, .lg-sub-html a:focus {
   color: #FFFFFF;
@@ -2598,7 +2598,7 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   padding: .6rem 2rem .6rem 2rem;
   margin: 0;
   color: #000000;
-  background: #006666;
+  background: #ff8400;
   border-radius: 3px;
 }
 #contact form .form-field label::after {
@@ -2661,12 +2661,12 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   line-height: 6rem;
   padding: 0 3rem;
   width: 100%;
-  background: #006666;
+  background: #ff8400;
   color: #000000;
   margin-top: .6rem;
 }
 #contact button.submitform:hover, #contact button.submitform:focus {
-  background: #006666;
+  background: #ff8400;
 }
 
 #message-warning, #message-success {
@@ -2881,7 +2881,7 @@ footer h4.h05::after {
   background-color: rgba(0, 0, 0, 0.9);
 }
 .footer-main #mc-form button {
-  background-color: #006666;
+  background-color: #ff8400;
   color: #000000;
   width: 6rem;
   height: 6rem;
@@ -2893,7 +2893,7 @@ footer h4.h05::after {
   top: 0;
 }
 .footer-main #mc-form button:hover {
-  background-color: #006666;
+  background-color: #ff8400;
 }
 .footer-main #mc-form button i {
   font-size: 2.6rem;
@@ -2903,7 +2903,7 @@ footer h4.h05::after {
   left: .2rem;
 }
 .footer-main #mc-form label {
-  color: #006666;
+  color: #ff8400;
   font-family: "montserrat-regular", sans-serif;
 }
 
