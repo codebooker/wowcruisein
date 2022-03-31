@@ -8,7 +8,16 @@ var player;
 
 function onYouTubeIframeAPIReady() {
   player = new YT.Player("ytplayer", {
-    events: {
+    playerVars: {
+			'autoplay': 1,
+			'showinfo': 0,
+			'autohide': 1,
+			'loop': 0,
+			'controls': 0,
+			'modestbranding': 1,
+			'vq': 'hd1080'
+		},
+      events: {
       onReady: onPlayerReady
     }
   });
@@ -18,7 +27,7 @@ function onPlayerReady() {
   player.playVideo();
   // Mute Sound Function!
   player.mute();
-  setTimeout(endOfVideo,.90000);
+  setTimeout(endOfVideo,90000);
 }
 
 function endOfVideo() {
